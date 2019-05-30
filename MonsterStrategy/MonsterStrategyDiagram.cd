@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Zyklop und Drache haben unterschiedliche Arten wie Sie einen Angriff durchführen (mit Laser oder Feuer) werden jedoch gleich aufgerufen.">
+    <Position X="6.969" Y="0.547" Height="1.844" Width="1.674" />
+  </Comment>
+  <Class Name="MonsterStrategy.AngriffsartFeuer" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AngriffsartFeuer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MonsterStrategy.AngriffsartLaser" BaseTypeListCollapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AngriffsartLaser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.174" Collapsed="true" />
+  </Class>
+  <Class Name="MonsterStrategy.Monster">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Monster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterStrategy.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterStrategy.Zyklop">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="MonsterStrategy.Monster" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="2.44" />
+        <Point X="3.5" Y="3.125" />
+        <Point X="1.25" Y="3.125" />
+        <Point X="1.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zyklop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterStrategy.Drache">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MonsterStrategy.IAngriffsart">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAngriffsart.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
